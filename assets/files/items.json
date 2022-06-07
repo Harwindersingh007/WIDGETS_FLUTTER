@@ -1,0 +1,29 @@
+{
+    "Shoes":[
+        {
+            "id":1,
+            "name":"Sneakers",
+          "image":"https://images.meesho.com/images/products/29038363/fcd3c_512.jpg"
+          
+        },
+        {
+            "id":2,
+            "name":"Sports",
+            "image":"https://images.meesho.com/images/products/412931/1_512.jpg"
+            
+        },
+        {
+            "id":3,
+            "name":"Adab",
+            "image":"https://images.meesho.com/images/products/53914401/ne5jw_512.jpg"
+            
+        },
+        {
+            "id":4,
+            "name":"Attractive",
+            "image":"https://images.meesho.com/images/products/59297660/sx0rm_512.jpg"
+            
+        }
+        
+    ]
+}
