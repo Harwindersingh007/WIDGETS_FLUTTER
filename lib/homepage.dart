@@ -1,6 +1,7 @@
 import 'dart:convert';
 
 import 'package:demo/models/product.dart';
+import 'package:demo/widgets/griditems.dart';
 import 'package:demo/widgets/item.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -195,15 +196,11 @@ class _HomePageState extends State<HomePage> {
                   height: 400,
                   child: GridView.builder(
                     scrollDirection: Axis.horizontal,
-                    itemCount: 4,
+                    itemCount: ProductModel.Shoes.length,
                     itemBuilder: ((context, index) {
-                      return Container(
-                          child: InkWell(
-                        onTap: () {},
-                        child: Card(
-                          elevation: 20,
-                        ),
-                      ));
+                      return GridData(
+                        item: ProductModel.Shoes[index],
+                      );
                     }),
                     gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                         childAspectRatio: 1 / 1, crossAxisCount: 2),
